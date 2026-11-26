@@ -1,0 +1,32 @@
+[
+  {
+    "id": "manutencion-superior",
+    "nombre": "Beca de Manutención Educación Superior (Ejemplo ilustrativo)",
+    "fechaLimite": "Por confirmar en convocatoria",
+    "descripcion": "Apoyo económico mensual para estudiantes inscritos en instituciones públicas de educación superior.",
+    "niveles": ["Licenciatura", "Técnico Superior Universitario"],
+    "tipo": "Manutención / Transporte",
+    "entidad": "CDMX / Nacional",
+    "convocatoriaUrl": "#"
+  },
+  {
+    "id": "transporte-universitario",
+    "nombre": "Apoyo de Transporte Universitario (Ejemplo ilustrativo)",
+    "fechaLimite": "Por confirmar en convocatoria",
+    "descripcion": "Subsidio destinado a cubrir gastos de traslado para alumnos con necesidad económica que viajan a su centro de estudios.",
+    "niveles": ["Licenciatura", "Educación Media Superior"],
+    "tipo": "Manutención / Transporte",
+    "entidad": "CDMX / Nacional",
+    "convocatoriaUrl": "#"
+  },
+  {
+    "id": "continuidad-academica",
+    "nombre": "Beca de Continuidad Académica (Ejemplo ilustrativo)",
+    "fechaLimite": "Por confirmar en convocatoria",
+    "descripcion": "Reconocimiento y estímulo económico para estudiantes que mantengan un promedio sobresaliente y deseen concluir sus estudios.",
+    "niveles": ["Licenciatura", "Posgrado"],
+    "tipo": "Continuidad de estudios",
+    "entidad": "Nacional",
+    "convocatoriaUrl": "#"
+  }
+]
