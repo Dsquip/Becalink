@@ -2,7 +2,8 @@ import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { cargarPerfil } from "../services/perfilStorage.js";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3001";
+// En producción (Vercel) se usa la misma dirección del sitio: /api/asistente
+const API_URL = import.meta.env.VITE_API_URL ?? "";
 
 const ACCIONES_RAPIDAS = [
   {
@@ -159,10 +160,8 @@ export default function Asistente() {
       }
 
       const data = await respuesta.json();
-      const textoIA =
-        data.respuesta ||
-        data.reply ||
-        generarRespuestaRespaldo(textoLimpio, perfil);
+      const textoIA = data.respuesta || data.reply;
+      if (!textoIA) throw new Error("Respuesta vacía del servidor");
 
       setModoBackend("Conectado a Gemini API");
       setMensajes((prev) => [
