@@ -10,7 +10,7 @@
 | Integrantes | Carmona Orea Lizbeth<br>Gael Darío Squivias Moran<br>Leslie Berenice Plata Hernández |
 | Repositorio | [github.com/Dsquip/Becalink](https://github.com/Dsquip/Becalink) |
 | Demo en vivo | [becalink.vercel.app](https://becalink.vercel.app/) |
-| Licencia | [PENDIENTE] |
+| Licencia | MIT License |
 
 ## Tabla de contenido
 
